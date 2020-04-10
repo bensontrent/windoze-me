@@ -2,8 +2,12 @@ output "ami_id" {
   value = data.aws_ami.find_ami.id
 }
 
-output "winrm_pass" {
+output "win_pass" {
   value = random_string.password.result
+}
+
+output "public_dns" {
+  value = aws_instance.win.public_dns
 }
 
 output "private_key" {
