@@ -1,0 +1,3 @@
+[submodule "make-terraform"]
+	path = make-terraform
+	url = https://github.com/YakDriver/make-terraform.git
