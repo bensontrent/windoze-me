@@ -15,7 +15,7 @@ variable "assign_public_ip" {
 }
 
 variable "instance_type" {
-  default = "t2.large"
+  default = "t2.micro"
 }
 
 variable "aws_region" {
