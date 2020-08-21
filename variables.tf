@@ -11,7 +11,7 @@ variable "instance_profile" {
 }
 
 variable "assign_public_ip" {
-  default = "false"
+  default = "true"
 }
 
 variable "instance_type" {
