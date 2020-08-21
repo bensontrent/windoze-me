@@ -22,6 +22,10 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
+variable "region" {
+  default = "us-east-1"
+}
+
 variable "identifier" {
   default     = "windozeme"
   description = "Name used for instance and tags"
